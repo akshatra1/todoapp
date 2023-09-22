@@ -1,0 +1,35 @@
+li {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    background-color: #f4f4f4;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .icon_holder {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .icon {
+    font-size: 18px;
+    cursor: pointer;
+    color: #007bff;
+  }
+  
+  .icon:hover {
+    color: #0056b3;
+  }
+  
+  /* Style the delete icon specifically */
+  .icon.delete {
+    color: #ff0000;
+  }
+  
+  .icon.delete:hover {
+    color: #cc0000;
+  }
+  
